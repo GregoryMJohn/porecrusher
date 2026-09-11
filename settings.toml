@@ -1,0 +1,10 @@
+force_field = "uff.atoms"
+helium = {sigma = 2.58, epsilon = 10.22}
+nitrogen = {sigma = 3.314}
+temperature = 298.15
+cutoff = 12.8
+samples_per_atom = 500
+cubelet_size = 0.2
+max_pore_diameter = 20.0
+psd_bin_size = 0.25 
+visualization_mode = "none" # options: 'none', 'xyz', 'grid', 'both'
